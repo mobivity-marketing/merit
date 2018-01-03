@@ -1,5 +1,5 @@
 @import 'reset';
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400');
 
 // //////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -56,11 +56,12 @@ html, body {
   margin: 0 auto;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  color: $black;
-}
-
-.container-fluid {
-  padding: $gutter*2;
+  color: $white;
+  background: url(../images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1, h2, h3, h4, p {
@@ -71,45 +72,19 @@ h1, h2, h3, h4, p {
   font-weight: 300;
 }
 
-h1, h2, h3 {
-  text-transform: uppercase;
+h1 {
+	font-size: 2.25em;
+	font-weight: 300;
 }
 
-h3 {
-  font-size: 32px;
-  color: $blue;
-}
-
-p {
-  font-size: 24px;
-  font-weight: 300;
-
-  &.small {
-    font-size: 18px;
-  }
-
-}
-
-h4 {
-  font-size: 28px;
-  color: $purpleLight;
-}
-
-hr {
-  margin-top: $gutter*3;
-  margin-bottom: $gutter*3;
-}
-
-#canvas{
-	background: $white;
-}
-
-canvas {
-	width: 100vw;
-	height: 100vh;
-	display: block;
-	position: fixed;
-	// top: 0;
-	// left: 0;
-	z-index: -9999;
+.main {
+	margin: 0px auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: $gutter*2;
+	border-radius: .625rem;
+	width: 75%;
+	background-image: linear-gradient(103deg, $blue 0%, $purple 100%);
+	box-shadow: 0rem 1.125rem 4.125rem 0rem rgba(0,0,0,0.451);
 }
