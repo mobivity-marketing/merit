@@ -42,6 +42,7 @@ $gutter: 20px;
 $border-radius: 4px;
 $transition: all 0.35s ease;
 $box-shadow: 0rem 1.125rem 4.125rem 0rem rgba(0,0,0,0.451);
+$box-shadow-light: 0rem 1.125rem 4.125rem 0rem rgba(0,0,0,0.2);
 $text-shadow: 0.5px 0.5px 5px $black;
 
 
@@ -170,6 +171,7 @@ input[type=email] {
   border: 1px solid $white;
   width: 75%;
   outline: 0;
+  box-shadow: $box-shadow-light;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -200,6 +202,5 @@ input[type="submit"] {
     background-color: $white;
     outline: 0;
     margin-top: 25px;
-    width: 50%;
-    box-shadow: $box-shadow;
+    box-shadow: $box-shadow-light;
 }
