@@ -129,6 +129,8 @@ p {
 
 }
 
+// Link Styling
+
 .linkHover {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 247, 252, 0.2)), to(rgba(245, 247, 252, 0.2)));
   background-image: linear-gradient(rgba(245, 247, 252, 0.2) 0%, rgba(245, 247, 252, 0.2) 100%);
@@ -142,4 +144,10 @@ p {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 247, 252, 0.2)), to(rgba(245, 247, 252, 0.2)));
   background-image: linear-gradient(rgba(245, 247, 252, 0.2) 0%, rgba(245, 247, 252, 0.2) 100%);
   background-size: 100% 1em;
+}
+
+// Form Styling
+
+label {
+  display: none !important;
 }
