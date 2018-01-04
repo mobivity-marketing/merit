@@ -41,7 +41,7 @@ $black: #58595B;
 $gutter: 20px;
 $border-radius: 4px;
 $transition: all 0.35s ease;
-$box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+$box-shadow: 0rem 1.125rem 4.125rem 0rem rgba(0,0,0,0.451);
 $text-shadow: 0.5px 0.5px 5px $black;
 
 
@@ -113,7 +113,7 @@ p {
 	border-radius: .625rem;
 	width: 75%;
 	background-image: linear-gradient(103deg, $blue 0%, $purple 100%);
-	box-shadow: 0rem 1.125rem 4.125rem 0rem rgba(0,0,0,0.451);
+	box-shadow: $box-shadow;
   text-shadow: $text-shadow;
 
   a {
@@ -160,15 +160,15 @@ input[type=email] {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.075rem;
   padding-left: calc(0.075rem + 1.05rem);
-  font-weight: 200;
-  border-radius: 2rem;
+  font-weight: 400;
+  border-radius: .625rem;
   color: white !important;
   border: solid 1px $white;
   text-align: left;
   display: block;
   background-color: transparent;
   border: 1px solid $white;
-  width: 100%;
+  width: 75%;
   outline: 0;
 }
 
@@ -183,4 +183,23 @@ input[type=email] {
 }
 :-moz-placeholder { /* Firefox 18- */
   color: $white;
+}
+
+input[type="submit"] {
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0 1.05rem;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.075rem;
+    padding-left: calc(0.075rem + 1.05rem);
+    font-weight: 400;
+    border-radius: .625rem;
+    color: $blue !important;
+    display: block;
+    background-color: $white;
+    outline: 0;
+    margin-top: 25px;
+    width: 50%;
+    box-shadow: $box-shadow;
 }
