@@ -121,7 +121,7 @@ p {
     text-decoration: none;
     color: $white;
     font-weight: 400;
-    border-bottom: 1px solid;
+    // border-bottom: 1px solid;
 
     &:hover {
       border-bottom-color: transparent;
@@ -141,6 +141,7 @@ p {
   -webkit-transition: $transition;
   transition: $transition;
 }
+
 .linkHover:hover {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 247, 252, 0.2)), to(rgba(245, 247, 252, 0.2)));
   background-image: linear-gradient(rgba(245, 247, 252, 0.2) 0%, rgba(245, 247, 252, 0.2) 100%);
@@ -152,7 +153,7 @@ p {
 label {
   display: none !important;
 }
-
+// 
 input[type=email] {
   height: 3rem;
   line-height: 3rem;
@@ -197,10 +198,20 @@ input[type="submit"] {
     padding-left: calc(0.075rem + 1.05rem);
     font-weight: 400;
     border-radius: .625rem;
-    color: $blue !important;
     display: block;
     background-color: $white;
     outline: 0;
     margin-top: 25px;
     box-shadow: $box-shadow-light;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: $blue !important;
+    background: linear-gradient(330deg, #e05252 0%, #467f83 25%, #78b0b6 50%, #ba94c4 75%, #88639c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    &:hover {
+      box-shadow: $box-shadow;
+    }
+
 }
