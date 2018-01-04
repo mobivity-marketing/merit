@@ -152,7 +152,7 @@ label {
   display: none !important;
 }
 
-input {
+input[type=email] {
   height: 3rem;
   line-height: 3rem;
   padding: 0 1.05rem;
@@ -170,4 +170,17 @@ input {
   border: 1px solid $white;
   width: 100%;
   outline: 0;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: $white;
 }
