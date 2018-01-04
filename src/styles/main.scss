@@ -57,7 +57,7 @@ $text-shadow: 0.5px 0.5px 5px $black;
 
 body {
   opacity: 1;
-  transition: 1.5s opacity;
+  transition: 1s opacity;
 
   &.fadeOut {
     opacity: 0;
