@@ -206,9 +206,6 @@ input[type="submit"] {
     cursor: pointer;
     text-transform: uppercase;
     color: $blue !important;
-    background: linear-gradient(330deg, #e05252 0%, #467f83 25%, #78b0b6 50%, #ba94c4 75%, #88639c 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 
     &:hover {
       box-shadow: $box-shadow;
