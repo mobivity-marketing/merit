@@ -151,3 +151,23 @@ p {
 label {
   display: none !important;
 }
+
+input {
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0 1.05rem;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.075rem;
+  padding-left: calc(0.075rem + 1.05rem);
+  font-weight: 200;
+  border-radius: 2rem;
+  color: white !important;
+  border: solid 1px $white;
+  text-align: left;
+  display: block;
+  background-color: transparent;
+  border: 1px solid $white;
+  width: 100%;
+  outline: 0;
+}
