@@ -58,7 +58,7 @@ $text-shadow: 0.5px 0.5px 5px $black;
 
 body {
   opacity: 1;
-  transition: 1s opacity;
+  transition: 2.25s opacity;
 
   &.fadeOut {
     opacity: 0;
@@ -69,6 +69,7 @@ body {
 
 html {
   background-color: $white;
+
 }
 
 html, body {
@@ -78,11 +79,27 @@ html, body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   color: $white;
-  background: url(../images/background.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  // background: url(../images/background.jpg) no-repeat center center fixed; 
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+::selection {
+  background: $blue; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: $blue; /* Gecko Browsers */
 }
 
 h1, h2, h3, h4, p {
@@ -153,7 +170,7 @@ p {
 label {
   display: none !important;
 }
-// 
+
 input[type=email] {
   height: 3rem;
   line-height: 3rem;
@@ -206,6 +223,7 @@ input[type="submit"] {
     cursor: pointer;
     text-transform: uppercase;
     color: $blue !important;
+    transition: $transition;
 
     &:hover {
       box-shadow: $box-shadow;
