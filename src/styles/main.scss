@@ -229,12 +229,16 @@ input[type="submit"] {
 
 @media only screen and (min-width : 320px) and (max-width : 415px) {
 
+	.main {
+		padding: $gutter;
+	}
+
 	h1 {
 		font-size: 1.25em;
 	}
 
 	p {
-		font-size: 0.75em;
+		font-size: 1em;
 	}
 
 }
