@@ -59,17 +59,11 @@ $text-shadow: 0.5px 0.5px 5px $black;
 body {
   opacity: 1;
   transition: 2.25s opacity;
-
-  &.fadeOut {
-    opacity: 0;
-    transition: none;
-  }
-
-}
-
-html {
-  background-color: $white;
-
+  background: url(../images/recurrencyBG.svg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 html, body {
@@ -78,7 +72,7 @@ html, body {
   margin: 0 auto;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  color: $white;
+  color: $greyDark;
 }
 
 video {
@@ -115,7 +109,10 @@ p {
   font-size: 1.25em;
   font-weight: 100;
   line-height: 1.5em;
-  text-shadow: 0.5px 0.5px 5px $black;
+}
+
+span {
+  font-weight: 400;
 }
 
 .main {
@@ -126,13 +123,21 @@ p {
 	padding: $gutter*2;
 	border-radius: .625rem;
 	width: 75%;
-	background-image: linear-gradient(103deg, $blue 0%, $purple 100%);
+  background: $white;
 	box-shadow: $box-shadow;
-  text-shadow: $text-shadow;
+
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: $gutter*2;
+    width: 75%;
+    max-width: 500px;
+  }
 
   a {
     text-decoration: none;
-    color: $white;
+    color: $blue;
     font-weight: 400;
 
     &:hover {
@@ -145,8 +150,8 @@ p {
 // Link Styling
 
 .linkHover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 247, 252, 0.2)), to(rgba(245, 247, 252, 0.2)));
-  background-image: linear-gradient(rgba(245, 247, 252, 0.2) 0%, rgba(245, 247, 252, 0.2) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(120, 176, 182, 0.2)), to(rgba(120, 176, 182, 0.2)));
+  background-image: linear-gradient(rgba(120, 176, 182, 0.2) 0%, rgba(120, 176, 182, 0.2) 100%);
   background-repeat: repeat-y;
   background-size: 0% 0em;
   background-position: 0 65%;
@@ -155,8 +160,8 @@ p {
 }
 
 .linkHover:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 247, 252, 0.2)), to(rgba(245, 247, 252, 0.2)));
-  background-image: linear-gradient(rgba(245, 247, 252, 0.2) 0%, rgba(245, 247, 252, 0.2) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(120, 176, 182, 0.2)), to(rgba(120, 176, 182, 0.2)));
+  background-image: linear-gradient(rgba(120, 176, 182, 0.2) 0%, rgba(120, 176, 182, 0.2) 100%);
   background-size: 100% 1em;
 }
 
