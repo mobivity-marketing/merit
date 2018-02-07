@@ -168,7 +168,7 @@ label {
 
 input[type=email] {
   height: 3rem;
-  line-height: 3rem;
+  // line-height: 3rem;
   padding: 0 1.05rem;
   font-size: 1em;
   font-family: 'Roboto', sans-serif;
@@ -176,7 +176,7 @@ input[type=email] {
   padding-left: calc(0.075rem + 1.05rem);
   font-weight: 400;
   border-radius: .625rem;
-  color: white !important;
+  color: $greyDark !important;
   border: solid 1px $white;
   text-align: left;
   display: block;
@@ -185,7 +185,6 @@ input[type=email] {
   width: 75%;
   outline: 0;
   box-shadow: $box-shadow-light;
-  color: $greyDark;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -203,7 +202,7 @@ input[type=email] {
 
 input[type="submit"] {
     height: 3rem;
-    // line-height: 3rem;
+    line-height: 3rem;
     padding: 0 1.05rem;
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
@@ -211,6 +210,7 @@ input[type="submit"] {
     padding-left: calc(0.075rem + 1.05rem);
     font-weight: 400;
     border-radius: .625rem;
+    border: none;
     display: block;
     background-color: $white;
     outline: 0;
