@@ -1,8 +1,8 @@
-# [Merit Marketing Site](https://getmerit.org)
+# [re•currency Marketing Site](https://recurrency.io)
 
 ## About
 
-This repository hold the front end code for Merit's marketing site.
+This repository hold the front end code for the re•currency marketing site.
 
 ## To Work in This Project:
 

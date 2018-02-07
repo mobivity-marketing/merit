@@ -1,13 +1,13 @@
 {
-  "name": "merit-marketing-site",
+  "name": "recurrency-marketing-site",
   "version": "0.0.1",
-  "description": "Marketing Site for Merit, Mobivity's Cryptocurrency Loyalty Solution",
+  "description": "Marketing Site for re•currency, Mobivity's Cryptocurrency Loyalty Solution",
   "url": "https://getmerit.org",
   "email": "info@mobivity.com",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mobivity-marketing/merit"
+    "url": "https://github.com/mobivity-marketing/recurrency"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
