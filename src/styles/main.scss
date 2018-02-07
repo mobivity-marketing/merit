@@ -212,13 +212,19 @@ input[type="submit"] {
     border-radius: .625rem;
     border: none;
     display: block;
-    background-color: $white;
+    // background-color: $white;
     outline: 0;
     margin-top: 25px;
     box-shadow: $box-shadow-light;
     cursor: pointer;
     text-transform: uppercase;
-    color: $blue !important;
+    color: $white !important;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8dc63f+0,569ea4+50,467f83+100 */
+    background: #8dc63f; /* Old browsers */
+    background: -moz-linear-gradient(left, #8dc63f 0%, #569ea4 50%, #467f83 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #8dc63f 0%,#569ea4 50%,#467f83 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #8dc63f 0%,#569ea4 50%,#467f83 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8dc63f', endColorstr='#467f83',GradientType=1 ); /* IE6-9 */
     transition: $transition;
 
     &:hover {
