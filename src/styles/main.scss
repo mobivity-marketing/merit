@@ -219,12 +219,12 @@ input[type="submit"] {
     cursor: pointer;
     text-transform: uppercase;
     color: $white !important;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8dc63f+0,569ea4+50,467f83+100 */
-    background: #8dc63f; /* Old browsers */
-    background: -moz-linear-gradient(left, #8dc63f 0%, #569ea4 50%, #467f83 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #8dc63f 0%,#569ea4 50%,#467f83 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #8dc63f 0%,#569ea4 50%,#467f83 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8dc63f', endColorstr='#467f83',GradientType=1 ); /* IE6-9 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#569ea4+0,a87bb5+66,88639c+100 */
+    background: #569ea4; /* Old browsers */
+    background: -moz-linear-gradient(left, #569ea4 0%, #a87bb5 66%, #88639c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #569ea4 0%,#a87bb5 66%,#88639c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #569ea4 0%,#a87bb5 66%,#88639c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#569ea4', endColorstr='#88639c',GradientType=1 ); /* IE6-9 */
     transition: $transition;
 
     &:hover {
